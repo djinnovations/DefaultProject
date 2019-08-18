@@ -2,8 +2,8 @@ package co.djphy.glance.uiutils;
 
 import android.content.res.Resources;
 import android.graphics.Typeface;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SnapHelper;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.SnapHelper;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.Animation;

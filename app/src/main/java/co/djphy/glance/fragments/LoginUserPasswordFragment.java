@@ -1,8 +1,8 @@
 package co.djphy.glance.fragments;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
+import androidx.annotation.Nullable;
+import com.google.android.material.snackbar.Snackbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;

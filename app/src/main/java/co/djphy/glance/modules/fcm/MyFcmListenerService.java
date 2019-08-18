@@ -1,7 +1,7 @@
 package co.djphy.glance.modules.fcm;
 
 import android.content.Intent;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -18,6 +18,10 @@ public class MyFcmListenerService extends FirebaseMessagingService {
     private static final String TAG = "MyFcmListenerService";
     private NotificationUtils notificationUtils;
 
+    @Override
+    public void onNewToken(String token){
+        //send token to server
+    }
 
     @Override
     public void onMessageReceived(RemoteMessage messageMain) {
